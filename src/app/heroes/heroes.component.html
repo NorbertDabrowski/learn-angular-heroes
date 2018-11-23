@@ -3,6 +3,7 @@
     <a routerLink="/detail/{{oneHero.id}}">
       <span class="badge">{{oneHero.id}}</span> {{oneHero.name}}
     </a>
+    <button class="delete" title="delete hero" (click)="delete(oneHero)">x</button>
   </li>
 </ul>
 
